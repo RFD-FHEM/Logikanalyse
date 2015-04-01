@@ -1,0 +1,57 @@
+Funkprotokolle:
+================
+
+like EV1527, but with different timing parameters:
+---------------------------------------------------
+Logilink NC_WS:
+	clock: 		500
+	Sync factor: 	18
+	start sequence: [500, -9000] => [1, -18]
+	high pattern:	[500, -4000] => [1, -8]
+	low pattern:	[500, -2000] => [1, -4]
+	message length:	36 bit
+	characteristic:	first bits allways 0101
+			checksum
+
+TCM:
+	clock: 		500
+	Sync factor: 	18
+	start sequence: [500, -9000] => [1, -18]
+	high pattern:	[500, -4000] => [1, -8]
+	low pattern:	[500, -2000] => [1, -4]
+	message length:	36 bit
+
+IT self learning:
+	clock: 		270
+	Sync factor: 	10
+	start sequence: [270, -2700] => [1, -10]
+	high pattern:	[270, -300]  => [1, -1]
+	low pattern:	[270, -1350] => [1, -5]
+	message length:	64 bit
+
+PT2262:
+--------
+IT old with selector:
+	clock: 		400
+	Sync factor: 	31
+	start sequence: [400, -13200] => [1, -31]
+	high pattern:	[1200, -400][1200, -400] => [3, -1][3, -1]
+	low pattern:	[400, -1200][400, -1200] => [1, -3][1, -3]
+	float pattern:	[400, -1200][1200, -400] => [1, -3][3, -1]
+	message length:	36 bit
+
+
+HCS301:
+--------
+
+
+scheme:
+--------
+scheme:
+	clock: 		500
+	Sync factor: 	18
+	start sequence: [500, -9000] => [1, -18]
+	high pattern:	[500, -4000] => [1, -8]
+	low pattern:	[500, -2000] => [1, -4]
+	message length:	36 bit
+
