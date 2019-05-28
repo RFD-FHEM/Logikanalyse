@@ -2,7 +2,7 @@
 Beispiel für Moving Average Filter
 Das Filter wird mit Werten, die zufällig um 100 schwanken beaufschlagt.
 Anfangswert für das Beispiel ist ein geleertes Filter, d.h. während der ersten Werte 
-zeichnet sich ein Einschwingverhalten ab, während die letzten Werte den Glättungseffekt wiederspiegeln.
+zeichnet sich ein Einschwingverhalten ab, während die letzten Werte den Glättungseffekt widerspiegeln.
 Norman Butzek, 2014
 */
 #include <filtering.h>
